@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+
+    <title>FORMULARIO DE INSCRIPCION</title>
+</head>
+<body>
+    
+<h1> FORMULARIO DE INSCRIPCION</h1>
+<p>Este espacio está desarrollado para que te inscribas y te llegue información de todos los servicios que tenemos para ti. 
+<br>
+Requerimos que llene toda la información incluyendo un acudiente o familiar que podamos contactar en caso de que usted no responda o en caso de emergencia. </p>
+<br>
+<form action="">
+<label>  Nombres y apellidos del solicitante:  </label>
+<input type="text">
+<br>
+<br>
+<label for="numerodecedula"> Numero de cedula (CC): </label>
+<input type="number" id="numerodecedula" min="" max="10">
+<br>
+<br>
+<label> Lugar donde reside </label>
+<input type="text">
+<br>
+<br>
+<label for=""> Fecha de nacimiento </label>
+<input type="date">
+<br>
+<br>
+<label> Sexo biológico: </label>
+<input type="radio" name="Sexo" value="H"> Hombre
+<input type="radio" name="Sexo" value="M" > Mujer
+<input type="radio" name="Sexo" value="I" > Indeterminado
+<br>
+<br>
+<label> ¿Tiene seguro medico? </label>
+<input type="radio" name="Seguro medico" value="S"> Si
+<input type="radio" name="Seguro medico" value="N"> No
+<label> ¿cual? </label>
+<select name="OPCION DE SEGURO"  id="OPCION DE SEGURO">
+<option value=""> seleccione una opcion </option>    
+<option value="A.C"> AXA COLPATRIA </option> 
+<option value="C.L"> Colsanitas </option> 
+<option value="C.P"> Compensar </option> 
+<option value="C.P"> Coomeva Prepagada </option> 
+<option value="F.M"> Fammisanar </option> 
+<option value="S.P"> Sura Prepagada </option> 
+</select>
+<label> ¿tiene otro tipo de seguro? ¿cual? </label>
+<input type="text"> 
+<br>
+<br>
+<label for="number"> Numero de telefono </label>
+<input type="number">
+<br>
+<br>
+<Label> ¿A que hora te podemos llamar? </Label>
+<input type="radio" name="Hora" value="M"> Mañana
+<input type="radio" name="Hora" value="M.D"> Medio dia
+<input type="radio" name="Hora" value="T"> Tarde
+<br>
+<br>
+<label> (llenar los espacios solo si es menor de edad quien solicita el servicio) Nombres y apellidos</label>
+<input type="text">
+<br>
+<br>
+<label for="numerodecedula"> Numero de documento (TI): </label>
+<input type="number" id="numerodecedula" min="" max="10">
+<br>
+<br>
+<label for=""> Fecha de nacimiento </label>
+<input type="date">
+<br>
+<br>
+<label> Lugar donde reside </label>
+<input type="text">
+<br>
+<br>
+<label> Sexo biológico: </label>
+<input type="radio" name="Sexo" value="H"> Hombre
+<input type="radio" name="Sexo" value="M" > Mujer
+<input type="radio" name="Sexo" value="I" > Indeterminado
+<br>
+<br>
+<label> Tiene seguro medico </label>
+<input type="radio" name="Seguro medico" value="S"> Si
+<input type="radio" name="Seguro medico" value="N"> No
+<label> ¿cual? </label>
+<select name="OPCION DE SEGURO"  id="OPCION DE SEGURO">
+<option value=""> seleccione una opcion </option>    
+<option value="A.C"> AXA COLPATRIA </option> 
+<option value="C.L"> Colsanitas </option> 
+<option value="C.P"> Compensar </option> 
+<option value="C.P"> Coomeva Prepagada </option> 
+<option value="F.M"> Fammisanar </option> 
+<option value="S.P"> Sura Prepagada </option> 
+</select>
+<label> ¿tiene otro tipo de seguro? ¿cual? </label>
+<input type="text"> 
+<br>
+<br>
+<Label> Nombres y apellidos del acudiente o contacto de emergencia: </Label>
+<input type="text">
+<br>
+<br>
+<label for="numerodecedula"> Numero de cedula (CC): </label>
+<input type="number" id="numerodecedula" min="" max="10">
+<br>
+<br>
+<label for=""> Fecha de nacimiento </label>
+<input type="date">
+<br>
+<br>
+<label for="number"> Numero de telefono </label>
+<input type="number">
+<br>
+<br>
+<Label> ¿A que hora te podemos llamar? </Label>
+<input type="radio" name="Hora" value="M"> Mañana
+<input type="radio" name="Hora" value="M.D"> Medio dia
+<input type="radio" name="Hora" value="T"> Tarde
+<br>
+<br>
+<h4> Envíanos tu correo electrónico y numero de teléfono para recibir tu información. </h4>
+<label for=""> correo: </label>
+<input type="email">
+<br>
+<br>
+<label for="number"> Numero de telefono </label>
+<input type="number">
+<br>
+<br>
+<Label> ¿A que hora te podemos llamar? </Label>
+<input type="radio" name="Hora" value="M"> Mañana
+<input type="radio" name="Hora" value="M.D"> Medio dia
+<input type="radio" name="Hora" value="T"> Tarde
+<br>
+<br>
+<Label> Seleccione el servicio requerido </Label>
+<select name="OPCION DE SERVICIO"  id="OPCION DE SERVICIO">
+    <option value=""> seleccione una opción </option>
+<option value="T.I"> Terapia individual </option>
+<option value="T.F"> Terapia familiar </option>
+<option value="T.P"> Terapia de pareja </option>
+<option value="C.P.I"> Consulta psicología infantil </option>
+<option value="C.P.A"> consulta psicología adultos </option>
+<option value="C.O.V"> consulta orientacion vocacional </option>
+
+<br>
+<br>
+<br>
+<input type="checkbox" value="true">
+<br>
+<br>
+<br>
+<button> Enviar </button>
+</form>
+
+
+
+
+
+
+</body>
+</html>
