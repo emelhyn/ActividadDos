@@ -1,0 +1,38 @@
+body {
+    background-color: rgba(151, 222, 250, 98);
+    margin: 0;
+    text-align: center;
+    font-size: 35 px;
+    font-weight: bold;
+    color: #000;
+}
+
+/* Beneficios */
+
+.img-logo {
+    width: 115px;
+    padding: 20px;
+}
+
+.seccion1 {
+    background-color: rgba(151, 222, 250, 98);
+    align-self: first baseline;
+}
+
+.header {
+    max-height: 110px;
+}
+
+h6 {
+    font-family: 'Inter';
+    font-family: 'Work Sans';
+}
+
+h1 {
+    font-family: 'Ink Free';
+}
+
+/* fin  Beneficios */
+
+/* Terminos */
+
