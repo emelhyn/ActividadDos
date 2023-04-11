@@ -1,34 +1,3 @@
-/* Beneficios */
-
-.img-logo {
-    width: 115px;
-    padding: 20px;
-}
-
-.seccion1 {
-    background-color: rgba(151, 222, 250, 98);
-    align-self: first baseline;
-}
-
-.header {
-    max-height: 110px;
-}
-
-h6 {
-    font-family: 'Inter';
-    font-family: 'Work Sans';
-}
-
-h1 {
-    font-family: 'Ink Free';
-}
-
-/* fin  Beneficios */
-
-/* Terminos */
-
-/* diseño preguntas*/
-
 header{
     display: flex;
         justify-content: space-around;
